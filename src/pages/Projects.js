@@ -7,41 +7,45 @@ import translation from '../assets/images/translation.svg';
 import scheck from '../assets/images/scheck.svg';
 import { motion } from 'framer-motion';
 import { pageAnimation, fade, pictureAnim, lineAnim } from '../animation';
-import { useScroll } from '../components/useScroll';
+// import { useScroll } from '../components/useScroll';
 
 
 function Projects() {
-    const [element, controls] = useScroll();
-    const [element1, controls1] = useScroll();
-    const [element2, controls2] = useScroll();
-    const [element3, controls3] = useScroll();
+    // const [element, controls] = useScroll();
+    // const [element1, controls1] = useScroll();
+    // const [element2, controls2] = useScroll();
+    // const [element3, controls3] = useScroll();
 
 
     return (
-        <Project variants={pageAnimation} initial="hidden" animate="show" exit="exit">
-            {/* animation here */}
-            <Section variants={fade} animate={controls} ref={element} initial="hidden">
+        <Project variants={pageAnimation} initial="hidden" animate="show">
+
+            {/* <Section variants={fade} animate={controls} ref={element} initial="hidden"> */}
+            <Section>
                 <motion.h2 variants={fade}>Automatic Speech Recognition</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/projects/asr">
                     <Hide><motion.img variants={pictureAnim} src={asr} alt="" /></Hide>
                 </Link>
             </Section>
-            <Section variants={fade} animate={controls1} ref={element1} initial="hidden">
+            {/* <Section variants={fade} animate={controls1} ref={element1} initial="hidden"> */}
+            <Section>
                 <motion.h2 variants={fade}>Language Modeling</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/projects/lm">
                     <Hide><motion.img variants={pictureAnim} src={lm} alt="" /></Hide>
                 </Link>
             </Section>
-            <Section variants={fade} animate={controls2} ref={element2} initial="hidden">
+            {/* <Section variants={fade} animate={controls2} ref={element2} initial="hidden"> */}
+            <Section>
                 <motion.h2 variants={fade}>Translation</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/projects/translation">
                     <Hide><motion.img variants={pictureAnim} src={translation} alt="" /></Hide>
                 </Link>
             </Section>
-            <Section variants={fade} animate={controls3} ref={element3} initial="hidden">
+            {/* <Section variants={fade} animate={controls3} ref={element3} initial="hidden"> */}
+            <Section>
                 <motion.h2 variants={fade}>Spellchecking</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/projects/spellchecking">

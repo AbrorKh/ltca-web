@@ -2,19 +2,20 @@ import React from 'react'
 //Styles
 import { About, Description } from "../Layout";
 import styled from "styled-components";
-import { fade } from "../animation";
-import { useScroll } from "./useScroll";
+// import { fade } from "../animation";
+// import { useScroll } from "./useScroll";
 import savodxon from '../assets/images/savodxon.svg';
 
 const PartnersSection = () => {
-  const [element, controls] = useScroll();
+  // const [element, controls] = useScroll();
   return (
-    <Partners
-      variants={fade}
-      animate={controls}
-      initial="hidden"
-      ref={element}
-    >
+    // <Partners
+    //   variants={fade}
+    //   animate={controls}
+    //   initial="hidden"
+    //   ref={element}
+    // >
+    <Partners>
       <Description>
         <h2>
           <span>Our partners:</span>

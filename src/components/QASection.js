@@ -3,15 +3,16 @@ import styled from 'styled-components';
 import { About } from '../Layout';
 import Toggle from './Toggle';
 import { AnimateSharedLayout } from 'framer-motion';
-import { useScroll } from './useScroll'
-import { fade } from '../animation';
+// import { useScroll } from './useScroll'
+// import { fade } from '../animation';
 
 function QASection() {
-    const [qaToggle, setQAToggle] = useState(false);
-    const [element, controls] = useScroll();
+    // const [qaToggle, setQAToggle] = useState(false);
+    // const [element, controls] = useScroll();
 
     return (
-        <QA variants={fade} ref={element} animate={controls} initial="hidden">
+        // <QA variants={fade} ref={element} animate={controls} initial="hidden">
+        <QA>
             <h2><span>FAQ</span></h2>
             <AnimateSharedLayout><Toggle title="Question 1: ......">
                 <div className="question">

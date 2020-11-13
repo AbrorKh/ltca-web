@@ -61,7 +61,7 @@ const Card = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #353535;
+    background: #282828;
     font-size: 3rem;
     color: #fff;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
@@ -87,11 +87,8 @@ const Card = styled.div`
 
 const GridSection = styled.section`
     display: grid;
-    gap: 1rem;
-
-    /* grid-template-columns: repeat(20, 1fr);  */
-
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 8rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
 `;
 

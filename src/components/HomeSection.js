@@ -3,12 +3,13 @@ import { About, Description, Image, Hide } from '../Layout';
 import { motion } from 'framer-motion';
 import { titleAnim, fade, pictureAnim } from '../animation';
 import mapimage from '../assets/images/about.png'
-import { useScroll } from './useScroll';
+// import { useScroll } from './useScroll';
 
 function HomeSection() {
-    const [element, controls] = useScroll();
+    // const [element, controls] = useScroll();
     return (
-        <About variants={fade} animate={controls} ref={element}>
+        // <About variants={fade} animate={controls} ref={element}>
+        <About>
             <Description>
                 <motion.div>
                     <Hide>
