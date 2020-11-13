@@ -11,9 +11,9 @@ function Contact() {
         <ContactStyle variants={pageAnimation} initial="hidden" animate="show" exit="exit">
             <Title>
                 <Hide>
-                    <motion.h4>
+                    <motion.h2>
                         Contact Us:
-                    </motion.h4>
+                    </motion.h2>
                 </Hide>
             </Title>
             <div>
@@ -72,6 +72,10 @@ const Circle = styled.div`
   width: 3rem;
   height: 3rem;
   background: #353535;
+  @media (max-width: 1500px) {
+    padding: 2rem;
+    font-size: 1rem;
+  }
 `;
 const Social = styled(motion.div)`
   display: flex;

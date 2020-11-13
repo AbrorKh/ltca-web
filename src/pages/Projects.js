@@ -6,7 +6,7 @@ import lm from '../assets/images/lm.svg';
 import translation from '../assets/images/translation.svg';
 import scheck from '../assets/images/scheck.svg';
 import { motion } from 'framer-motion';
-import { pageAnimation, fade, pictureAnim, lineAnim, slider, sliderContainer } from '../animation';
+import { pageAnimation, fade, pictureAnim, lineAnim } from '../animation';
 import { useScroll } from '../components/useScroll';
 
 
@@ -19,15 +19,7 @@ function Projects() {
 
     return (
         <Project variants={pageAnimation} initial="hidden" animate="show" exit="exit">
-            {/* loader animation - no need */}
-            {/* <motion.div variants={sliderContainer}>
-                <Frame1 variants={slider}></Frame1>
-                <Frame2 variants={slider}></Frame2>
-                <Frame3 variants={slider}></Frame3>
-                <Frame4 variants={slider}></Frame4>
-                <Frame5 variants={slider}></Frame5>
-            </motion.div> */}
-
+            {/* animation here */}
             <Section variants={fade} animate={controls} ref={element} initial="hidden">
                 <motion.h2 variants={fade}>Automatic Speech Recognition</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
@@ -92,28 +84,5 @@ const Section = styled(motion.div)`
 const Hide = styled.div`
     overflow: hidden;
 `;
-
-// //Frame Animation
-// const Frame1 = styled(motion.div)`
-//   position: fixed;
-//   left: 0;
-//   top: 10%;
-//   width: 100%;
-//   height: 100vh;
-//   background: #0099b5;
-//   z-index: 2;
-// `;
-// const Frame2 = styled(Frame1)`
-//   background: #ce1126;
-// `;
-// const Frame3 = styled(Frame1)`
-//   background: #ffffff;
-// `;
-// const Frame4 = styled(Frame1)`
-//   background: #ce1126;
-// `;
-// const Frame5 = styled(Frame1)`
-//   background: #1eb53a;
-// `;
 
 export default Projects;
