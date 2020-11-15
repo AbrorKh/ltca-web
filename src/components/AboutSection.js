@@ -3,14 +3,13 @@ import { About, Description, Image } from '../Layout';
 import feather from '../assets/images/feather1.svg';
 import { motion } from 'framer-motion';
 import { pictureAnim, fade } from '../animation';
-// import { useScroll } from './useScroll';
+import { useScroll } from './useScroll';
 
 function AboutSection() {
-    // const [element, controls] = useScroll();
+    const [element, controls] = useScroll();
 
     return (
-        // <About variants={fade} animate={controls} ref={element}>
-        <About>
+        <About variants={fade} >
             <Description>
                 <h2>About <span>LTCA</span></h2>
                 <p>

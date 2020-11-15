@@ -2,14 +2,13 @@ import React from 'react'
 import { About, Description, Image, Hide } from '../Layout';
 import { motion } from 'framer-motion';
 import { titleAnim, fade, pictureAnim } from '../animation';
-import mapimage from '../assets/images/about.png'
-// import { useScroll } from './useScroll';
+import mapimage from '../assets/images/ca.svg'
+import { useScroll } from './useScroll';
 
 function HomeSection() {
     // const [element, controls] = useScroll();
     return (
-        // <About variants={fade} animate={controls} ref={element}>
-        <About>
+        <About variants={fade} >
             <Description>
                 <motion.div>
                     <Hide>
