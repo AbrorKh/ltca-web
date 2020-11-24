@@ -22,6 +22,7 @@ function Team() {
                                     <p>
                                         Name: {person.Name}<br />
                                         Role: {person.Role}
+                                        
                                     </p>
                                 </Card>
                             ))}

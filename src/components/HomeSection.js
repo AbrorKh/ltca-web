@@ -13,30 +13,16 @@ function HomeSection() {
                 <motion.div>
                     <Hide>
                         <motion.h2 variants={titleAnim}>
-                            Language Technologies
+                            Turkic Interlingua 
                         </motion.h2>
                     </Hide>
-                    <Hide>
-                        <motion.h2 variants={titleAnim}>
-                            for <span>Central Asia</span>.
-                        </motion.h2>
-                    </Hide>
+                    
                 </motion.div>
                 <motion.p variants={fade}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-                    purus libero. Nulla feugiat luctus mauris, a laoreet sapien sodales
-                    sed. Nam porttitor dui at pulvinar commodo. Nunc cursus, tellus vitae
-                    ornare volutpat, ipsum orci aliquam neque, lacinia iaculis justo
-                    quam eget orci. Maecenas rutrum consectetur libero sed fringilla.
-                    In malesuada lacus enim, et euismod massa ullamcorper sit amet.
-                    Nam lobortis ac elit nec euismod.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-                    purus libero. Nulla feugiat luctus mauris, a laoreet sapien sodales
-                    sed. Nam porttitor dui at pulvinar commodo. Nunc cursus, tellus vitae
-                    ornare volutpat, ipsum orci aliquam neque, lacinia iaculis justo
-                    quam eget orci. Maecenas rutrum consectetur libero sed fringilla.
-                    In malesuada lacus enim, et euismod massa ullamcorper sit amet.
-                    Nam lobortis ac elit nec euismod.
+                Turkic Interlingua (TIL) is a community of researchers, Machine Learning (ML) engineers, 
+                language enthusiasts and community leaders whose mission is to develop language technologies 
+                (from spell checkers to translation models), collect diverse datasets, and explore linguistic phenomena 
+                through the lens of academic research for Turkic languages. 
                 </motion.p>
             </Description>
             <Image>
