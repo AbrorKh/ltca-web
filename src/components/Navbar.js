@@ -3,14 +3,15 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
 import { useLocation } from "react-router-dom";
+import logo from '../assets/images/logo.png'
 
 function Navbar() {
     const { pathname } = useLocation();
     return (
         <Navigation>
-            <h1>
-                <Link id="logo" to="/">LTCA</Link>
-            </h1>
+            <div id="container">
+                <img src={logo} width="200" height="100" alt="" />
+            </div>
             <ul>
                 <li>
                     <Link to="/projects">Projects</Link>

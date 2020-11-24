@@ -6,33 +6,43 @@ import student from './assets/images/student.svg';
 export const TeamState = () => {
     return [
         {
-            Name: '..................',
-            Role: 'role',
+            Name: 'Abror Khaytbayev',
+            Role: 'Spellchecking',
             Img: student,
         },
         {
-            Name: '..................',
-            Role: 'role',
-            Img: girl,
+            Name: 'Ahsan Wahab',
+            Role: 'Language Modeling, Machine Translation',
+            Img: student,
         },
         {
-            Name: '..................',
-            Role: 'role',
+            Name: 'Anoop Babu',
+            Role: 'Machine Translation, Text Generation',
             Img: hacker,
         },
         {
-            Name: '..................',
-            Role: 'role',
-            Img: student,
-        },
-        {
-            Name: '..................',
-            Role: 'role',
+            Name: 'Duygu Ataman',
+            Role: 'Machine Translation',
             Img: girl,
         },
         {
-            Name: '..................',
-            Role: 'role',
+            Name: 'Jamshidbek Mirzakhalov',
+            Role: 'ASR, Machine Translation, Language Modeling',
+            Img: student,
+        },
+        {
+            Name: 'Mokhiyakhon Uzoqova',
+            Role: 'Spellchecking',
+            Img: girl,
+        },
+        {
+            Name: 'Shahnoza Pulatova',
+            Role: 'ASR, Machine Translation, Language Modeling',
+            Img: girl,
+        },
+        {
+            Name: 'Sherzod Kariev',
+            Role: 'ASR',
             Img: hacker,
         },
     ];

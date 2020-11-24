@@ -12,38 +12,32 @@ function QASection() {
 
     return (
         <QA variants={fade}  initial="hidden">
-            <h2><span>FAQ</span></h2>
-            <AnimateSharedLayout><Toggle title="Question 1: ......">
+            <h2><span>FAQs</span></h2>
+            <AnimateSharedLayout><Toggle title="1. How can I join the community?">
                 <div className="question">
                     <div className="answer">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-                    purus libero. Nulla feugiat luctus mauris, a laoreet sapien sodales</p>
+                        <p>The best way to learn more about the community and get involved would be through our <a href="https://join.slack.com/t/ltca-workspace/shared_invite/zt-j40lwcbo-5KcEJOz2ZGenP9fo5WFq4Q">Slack</a> workspace!</p>
                     </div>
                 </div>
             </Toggle></AnimateSharedLayout>
-            <AnimateSharedLayout><Toggle title="Question 2: ......">
+            <AnimateSharedLayout><Toggle title="2. Can I join a specific project that I am interested?">
                 <div className="question">
                     <div className="answer">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-                    purus libero. Nulla feugiat luctus mauris, a laoreet sapien sodales</p>
-
+                        <p>Yes, absolutely! Join our Slack channel and reach out to the team lead of that project. Team leads are listed in the Projects section of this website.</p>
                     </div>
                 </div>
             </Toggle></AnimateSharedLayout>
-            <AnimateSharedLayout><Toggle title="Question 3: .......">
+            <AnimateSharedLayout><Toggle title="3. I don't have NLP or ML experience, how can I contribute?">
                 <div className="question">
                     <div className="answer">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-                    purus libero. Nulla feugiat luctus mauris, a laoreet sapien sodales</p>
-
+                        <p>There are so many ways you can contribute even though you are not familiar with NLP and ML (yet)! If you speak a Turkic language, chances are you can help us with evaluating our datasets and providing linguistic support. This way, you can get introduced to the area and learn from more experienced members of the community.</p>
                     </div>
                 </div>
             </Toggle></AnimateSharedLayout>
-            <AnimateSharedLayout><Toggle title="Question 4: .......">
+            <AnimateSharedLayout><Toggle title="4. I don't see a project that I am interested in. Can I start my own?">
                 <div className="question">
                     <div className="answer">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-                    purus libero. Nulla feugiat luctus mauris, a laoreet sapien sodales</p>
+                        <p>100%! It is encouraged that you take the lead and start NLP related projects in the community that might be of interest to you. Join our Slack channel and read the steps described in the #general channel on how you can do that. </p>
                     </div>
                 </div>
             </Toggle></AnimateSharedLayout>

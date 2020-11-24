@@ -11,16 +11,13 @@ function AboutSection() {
     return (
         <About variants={fade} >
             <Description>
-                <h2>About <span>LTCA</span></h2>
+                <h2>About <span>Turkic languages</span></h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam at purus libero. Nulla feugiat luctus mauris, a
-                    laoreet sapien sodales sed. Nam porttitor dui at pulvinar
-                    commodo. Nunc cursus, tellus vitae ornare volutpat, ipsum
-                    orci aliquam neque, lacinia iaculis justo quam eget orci.
-                    Maecenas rutrum consectetur libero sed fringilla. In malesuada
-                    lacus enim, et euismod massa ullamcorper sit amet. Nam
-                    lobortis ac elit nec euismod.
+                The Turkic languages are a language family of at least 35 documented languages, 
+                spoken by the Turkic peoples of Eurasia from Eastern Europe, the Caucasus, 
+                Central Asia and Western Asia all the way to North Asia (particularly in Siberia) and East Asia.
+                Turkic languages are spoken as a native language by some 170 million people, and the total number 
+                of Turkic speakers, including second language speakers, is over 200 million. 
                 </p>
             </Description>
             <Image>
