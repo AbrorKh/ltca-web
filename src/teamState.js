@@ -8,6 +8,7 @@ import ahsan from './assets/people/ahsan.jpeg'
 import mokhiyakhon from './assets/people/mokhiyakhon.jpg'
 import sherzod from './assets/people/sherzod.jpg'
 import abror from './assets/people/abror.jpeg'
+import duygu from './assets/people/duygu.png'
 
 export const TeamState = () => {
     return [
@@ -32,8 +33,8 @@ export const TeamState = () => {
         {
             Name: 'Duygu Ataman',
             Role: 'Post-doc @ the University of Zürich',
-            Img: girl,
-            Link: ""
+            Img: duygu,
+            Link: "https://d-ataman.github.io/"
         },
         {
             Name: 'Jamshidbek Mirzakhalov',
