@@ -20,8 +20,8 @@ function Team() {
                                 <Card>
                                     <img src={person.Img} alt="" />
                                     <p>
-                                        Name: {person.Name}<br />
-                                        Role: {person.Role}
+                                        <a href={person.Link}>{person.Name}</a><br />
+                                        {person.Role}
                                         
                                     </p>
                                 </Card>
@@ -66,11 +66,12 @@ const Card = styled.div`
     font-size: 3rem;
     color: #fff;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-    height: 100%;
+    height: auto;
     width: 80%;
     border-radius: 4px;
     transition: all 500ms;
-    overflow: hidden;
+    // overflow: hidden;
+    margin-top: 35px;
     
     background-size: cover;
     background-position: center;
@@ -82,17 +83,24 @@ const Card = styled.div`
     img{
         width: 80%;
         height: auto;
+        margin-top: 10px;
         overflow: hidden;
     }
     p{
         padding: 1rem;
+        text-align: center;
+
+    }
+    a{
+        text-decoration: underline;
+        color: white;
+        
     }
 `;
 
 const GridSection = styled.section`
     display: grid;
     gap: 1rem;
-    padding-left: 20px;
     padding-left: 20px;
     /* grid-template-columns: repeat(20, 1fr);  */
 

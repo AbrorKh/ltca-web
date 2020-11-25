@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
 import { useLocation } from "react-router-dom";
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo_coral.png'
 
 function Navbar() {
     const { pathname } = useLocation();
@@ -11,7 +11,7 @@ function Navbar() {
         <Navigation>
             <div id="container">
                 <Link to="/">
-                <img src={logo} width="100" height="50" alt="" style={{ borderRadius: "10px"}}/>
+                <img src={logo} width="125" height="65" alt="" style={{ borderRadius: "10px"}}/>
                 </Link>
             </div>
             <ul>
