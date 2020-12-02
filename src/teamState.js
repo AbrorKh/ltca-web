@@ -1,7 +1,7 @@
 //Import Images
-// import hacker from './assets/images/hacker.svg';
-// import girl from './assets/images/girl.svg';
-// import student from './assets/images/student.svg';
+import hacker from './assets/images/hacker.svg';
+import girl from './assets/images/girl.svg';
+import student from './assets/images/student.svg';
 import anoop from './assets/people/anoop.jpeg'
 import jim from './assets/people/jim.jpg'
 import ahsan from './assets/people/ahsan.jpeg'
@@ -9,7 +9,6 @@ import mokhiyakhon from './assets/people/mokhiyakhon.jpg'
 import sherzod from './assets/people/sherzod.jpg'
 import abror from './assets/people/abror.jpeg'
 import duygu from './assets/people/duygu.png'
-import shaxnoza from './assets/people/shaxnoza.jpg'
 
 export const TeamState = () => {
     return [
@@ -52,7 +51,7 @@ export const TeamState = () => {
         {
             Name: 'Shahnoza Pulatova',
             Role: 'Undergraduate Student @ Namangan State University',
-            Img: shaxnoza,
+            Img: girl,
             Link: ""
         },
         {

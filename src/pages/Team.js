@@ -18,7 +18,7 @@ function Team() {
                         {team && (<GridSection>
                             {team.map((person) => (
                                 <Card>
-                                    <img src={person.Img} alt="" style={{ borderRadius: 20}}/>
+                                    <img src={person.Img} alt="" />
                                     <p>
                                         <a href={person.Link}>{person.Name}</a><br />
                                         {person.Role}

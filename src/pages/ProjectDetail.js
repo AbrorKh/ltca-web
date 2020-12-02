@@ -20,7 +20,7 @@ function ProjectDetail() {
             {project && (
                 <Details>
                     <Headline>
-                        <h4>{project.title}</h4>
+                        <h2>{project.title}</h2>
                         <img src={project.mainImg} alt="project" />
                     </Headline>
                     <Body>
@@ -72,7 +72,7 @@ const Headline = styled.div`
     min-height: 60vh;
     padding-top: 20vh;
     position: relative;
-    h4{
+    h2{
         position: absolute;
         top: 10%;
         left: 50%;
@@ -82,12 +82,7 @@ const Headline = styled.div`
         width: 100%;
         height: 40vh;
         text-align: center;
-        @media (max-width: 1300px) {
-            padding: 1rem 1rem;
-            // margin-top: 35px;
-        }
     }
-    
 `;
 
 const Publications = styled.div`
