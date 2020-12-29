@@ -3,6 +3,7 @@ import asr from './assets/images/speech.svg';
 import lm from './assets/images/lm.svg';
 import translation from './assets/images/translation.svg';
 import scheck from './assets/images/scheck.svg';
+import textgen from './assets/images/textgen.svg';
 
 export const ProjectState = () => {
     return [
@@ -79,6 +80,22 @@ export const ProjectState = () => {
             description: 'A spell checker is an essential language technology that enables content creators to write in concise and grammatically sound language. Currently, our project revolves around creating semantic spell checkers for Turkic languages using monolingual data.',
             people: 'Abror Khaytbayev, Mohiyaxon Uzoqova',
             url: '/projects/spellchecking',
+            secondaryImg: '',//image
+            publications: [
+                // {
+                //     title: 'Publication 1',
+                //     description:
+                //         '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+                // },
+
+            ],
+        },
+        {
+            title: 'Rule-based Text Generation',
+            mainImg: textgen,//image
+            description: '...',
+            people: 'Anoop Babu, Antonio Laverghetta',
+            url: '/projects/rb_textgen',
             secondaryImg: '',//image
             publications: [
                 // {

@@ -16,7 +16,7 @@ function QASection() {
             <AnimateSharedLayout><Toggle title="1. How can I join the community?">
                 <div className="question">
                     <div className="answer">
-                        <p>The best way to learn more about the community and get involved would be through our <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-j40lwcbo-5KcEJOz2ZGenP9fo5WFq4Q">Slack</a> workspace!</p>
+                        <p>The best way to learn more about the community and get involved would be through our <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-k5sdiitd-02VyV_aNdRMpXyL9lRlTBA">Slack</a> workspace!</p>
                     </div>
                 </div>
             </Toggle></AnimateSharedLayout>

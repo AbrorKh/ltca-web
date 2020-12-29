@@ -5,20 +5,28 @@ import asr from '../assets/images/speech.svg';
 import lm from '../assets/images/lm.svg';
 import translation from '../assets/images/translation.svg';
 import scheck from '../assets/images/scheck.svg';
+import textgen from '../assets/images/textgen.svg';
 import { motion } from 'framer-motion';
 import { pageAnimation, fade, pictureAnim, lineAnim } from '../animation';
-import { useScroll } from '../components/useScroll';
+// import { useScroll } from '../components/useScroll';
 
 
 function Projects() {
-    const [element, controls] = useScroll();
-    const [element1, controls1] = useScroll();
-    const [element2, controls2] = useScroll();
-    const [element3, controls3] = useScroll();
+    // const [element, controls] = useScroll();
+    // const [element1, controls1] = useScroll();
+    // const [element2, controls2] = useScroll();
+    // const [element3, controls3] = useScroll();
 
 
     return (
         <Project variants={pageAnimation} initial="hidden" animate="show" exit="exit">
+            <Title>
+                <Hide>
+                    <motion.h2>
+                        Projects:
+                    </motion.h2>
+                </Hide>
+            </Title>
             {/* animation here */}
             <Section variants={fade}  initial="hidden">
                 <motion.h4 variants={fade}>Automatic Speech Recognition</motion.h4>
@@ -46,6 +54,13 @@ function Projects() {
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/projects/spellchecking">
                     <Hide><motion.img variants={pictureAnim} src={scheck} alt="" /></Hide>
+                </Link>
+            </Section>
+            <Section variants={fade}  initial="hidden">
+                <motion.h4 variants={fade}>Rule-based Text Generation</motion.h4>
+                <motion.div variants={lineAnim} className="line"></motion.div>
+                <Link to="/projects/rb_textgen">
+                    <Hide><motion.img variants={pictureAnim} src={textgen} alt="" /></Hide>
                 </Link>
             </Section>
         </Project>
@@ -79,6 +94,15 @@ const Section = styled(motion.div)`
         width: 50%;
         height: 25vh;
     }
+`;
+
+const Title = styled.div`
+    margin-bottom: 4rem;
+    color: black;
+    @media (max-width: 1500px) {
+    margin-top: 5rem;
+  }
+
 `;
 
 const Hide = styled.div`
