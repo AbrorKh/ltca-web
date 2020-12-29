@@ -26,9 +26,18 @@ function ProjectDetail() {
                     <Body>
                         <h3>Description:</h3>
                         <section>
-                            {project.description}
+                            {project.description}    
                         </section>
-                        <p>People involved: {project.people}</p>
+                     
+
+                        <h4>Link:</h4>
+                        <section>
+                            <a href={project.link}>Github link</a>
+                        </section>
+                      
+
+                        
+                        <p><strong>Involved members:</strong> {project.people}</p>
                     </Body>
                     <Publications>
                         {project.publications.map((pub) => (
@@ -53,10 +62,14 @@ const Body = styled(motion.div)`
     }
     p{
         color: black;
+        font-family: 'Abel', sans-serif;
+        font-weight: lighter;
     }
     section{
         padding: 2rem 0rem;
         font-size: 1.5rem;
+        font-family: 'Abel', sans-serif;
+        font-weight: lighter;
     }
     @media(max-width: 1500px) {
         padding: 2rem;
@@ -115,6 +128,7 @@ const PubStyle = styled.div`
     }
     p{
         padding: 2rem 0rem;
+        
     }
 `;
 const Publication = ({ title, description }) => {

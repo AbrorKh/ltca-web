@@ -59,11 +59,15 @@ export const ProjectState = () => {
             ],
         },
         {
-            title: 'Machine Translation (MT)',
+            title: 'Machine Translation (MT) for Turkic languages',
             mainImg: translation,//image
-            description: 'Our projects in MT revolve around creating collecting bitext data, training baseline models, and improving upon the techniques for low-resource translation in the context of Turkic languages. ',
-            people: 'Jamshidbek Mirzakhalov, Duygu Ataman, Shaxnoza Pulatova, Ahsan Wahab, Anoop Babu',
+            description: 
+            'Machine Translation is an area of research exploring the methods for automatic translation of text or document from one language to another. The biggest MT system in the industry, Google Translate, currently supports 103 languages out of which 8 are Turkic languages (Azerbaijani, Kazakh, Kyrgyz, Tatar, Turkish, Turkmen, Uyghur, Uzbek). There are over 30 languages in the Turkic family most of which lack any sophisticated MT system support. Some of these unsupported languages are spoken by more than a million native speakers (Bashkir, Chuvash, Qashqai etc).\n\n ' +
+            
+            'Our project attempts to connect and involve various stakeholders (native speakers, industry partners, governments, researchers etc) in the process of creating MT systems. You can read and find out more about the project in the below link.',
+            people: 'Jamshidbek Mirzakhalov, Duygu Ataman, Shaxnoza Pulatova, Anoop Babu, Sherzod Kariev, Orhan Firat, Mammad Hajili, Bekhzod Moydinboyev',
             url: '/projects/translation',
+            link: 'https://github.com/turkic-interlingua/til-mt',
             secondaryImg: '',//image
             publications: [
                 // {
