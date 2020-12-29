@@ -3,9 +3,11 @@ import { motion } from 'framer-motion';
 import { pageAnimation, titleAnim } from '../animation';
 import styled from 'styled-components';
 import { TeamState } from '../teamState';
+import {TranslatorsState} from '../teamState'
 
 function Team() {
     const [team, setTeam] = useState(TeamState);
+    const [translators, setT] = useState(TranslatorsState);
 
     return (
         <TeamStyle variants={pageAnimation} initial="hidden" animate="show" exit="exit">
@@ -28,8 +30,26 @@ function Team() {
                             ))}
                         </GridSection>)}
                     </div>
+                    <motion.h2>
+                        Translators and Content Creators:
+                    </motion.h2>
+                    <div>
+                        {translators && (<GridSection>
+                            {translators.map((person) => (
+                                <Card>
+                                    <img src={person.Img} alt="" />
+                                    <p>
+                                        <a href={person.Link}>{person.Name}</a><br />
+                                        {person.Role}
+                                        
+                                    </p>
+                                </Card>
+                            ))}
+                        </GridSection>)}
+                    </div>
                 </Hide>
             </Title>
+           
         </TeamStyle>
     )
 }

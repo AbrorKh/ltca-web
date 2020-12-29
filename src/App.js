@@ -4,6 +4,7 @@ import Styles from './components/Styles';
 import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import GetInvolved from './pages/GetInvolved'
 import Team from './pages/Team';
 import { Switch, Route, useLocation } from 'react-router-dom';
 import ProjectDetail from './pages/ProjectDetail';
@@ -28,6 +29,10 @@ function App() {
           <Route path="/projects" exact>
             <Projects />
           </Route>
+          <Route path="/get-involved" exact>
+            < GetInvolved/>
+          </Route>
+          
 
           <Route path='/projects/:id'>
             <ProjectDetail />

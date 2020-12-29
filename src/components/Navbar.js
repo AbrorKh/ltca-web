@@ -24,6 +24,14 @@ function Navbar() {
                     />
                 </li>
                 <li>
+                    <Link to="/get-involved">Get Involved</Link>
+                    <Line
+                        transition={{ duration: 0.5 }}
+                        initial={{ width: "0%" }}
+                        animate={{ width: pathname === "/get-involved" ? "50%" : "0%" }}
+                    />
+                </li>
+                <li>
                     <Link to="/projects">Projects</Link>
                     <Line
                         transition={{ duration: 0.5 }}
