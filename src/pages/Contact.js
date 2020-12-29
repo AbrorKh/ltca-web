@@ -35,7 +35,7 @@ function Contact() {
                     <Social variants={titleAnim}>
                         <Circle />
                         <h4>Join our slack channel:</h4>
-                        <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-j40lwcbo-5KcEJOz2ZGenP9fo5WFq4Q"><img src={slack} alt="" /></a>
+                        <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-k5sdiitd-02VyV_aNdRMpXyL9lRlTBA"><img src={slack} alt="" /></a>
                     </Social>
                 </Hide>
             </div>

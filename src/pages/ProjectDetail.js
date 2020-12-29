@@ -20,7 +20,7 @@ function ProjectDetail() {
             {project && (
                 <Details>
                     <Headline>
-                        <h2>{project.title}</h2>
+                        <h2>{project.title}</h2><br/><br/>
                         <img src={project.mainImg} alt="project" />
                     </Headline>
                     <Body>
@@ -77,11 +77,16 @@ const Headline = styled.div`
         top: 10%;
         left: 50%;
         transform: translate(-50%, -10%)
+        
     }
     img{
+        
         width: 100%;
         height: 40vh;
         text-align: center;
+        @media (max-width: 1500px) {
+            margin-top: 200px;
+          }
     }
 `;
 
