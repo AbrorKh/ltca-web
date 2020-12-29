@@ -8,15 +8,8 @@ import scheck from '../assets/images/scheck.svg';
 import textgen from '../assets/images/textgen.svg';
 import { motion } from 'framer-motion';
 import { pageAnimation, fade, pictureAnim, lineAnim } from '../animation';
-// import { useScroll } from '../components/useScroll';
-
 
 function Projects() {
-    // const [element, controls] = useScroll();
-    // const [element1, controls1] = useScroll();
-    // const [element2, controls2] = useScroll();
-    // const [element3, controls3] = useScroll();
-
 
     return (
         <Project variants={pageAnimation} initial="hidden" animate="show" exit="exit">
