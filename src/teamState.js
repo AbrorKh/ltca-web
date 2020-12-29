@@ -1,7 +1,6 @@
-//Import Images
-// import hacker from './assets/images/hacker.svg';
-// import girl from './assets/images/girl.svg';
-// import student from './assets/images/student.svg';
+import hacker from './assets/images/hacker.svg';
+import girl from './assets/images/girl.svg';
+import student from './assets/images/student.svg';
 import anoop from './assets/people/anoop.jpeg'
 import jim from './assets/people/jim.jpg'
 import ahsan from './assets/people/ahsan.jpeg'
@@ -10,7 +9,6 @@ import sherzod from './assets/people/sherzod.jpg'
 import shaxnoza from './assets/people/shaxnoza.jpg'
 import abror from './assets/people/abror.jpeg'
 import duygu from './assets/people/duygu.png'
-import shaxnoza from './assets/people/shaxnoza.JPG'
 import agrawal from './assets/people/agrawal.jpg'
 import mammad from './assets/people/mammad.jpg'
 import bekhzod from './assets/people/bekhzod.jpg'
