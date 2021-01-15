@@ -43,7 +43,7 @@ export const TeamState = () => {
         },
         {
             Name: 'Bekhzod Moydinboyev',
-            Role: 'Undergrad @ University of South Florida',
+            Role: 'Undergraduate Student @ University of South Florida',
             Img: bekhzod,
             Link: ""
         },
@@ -52,6 +52,18 @@ export const TeamState = () => {
             Role: 'Post-doc @ the University of Zürich',
             Img: duygu,
             Link: "https://d-ataman.github.io/"
+        },
+        {
+            Name: 'Esra Önal',
+            Role: 'Graduate Student @ Indiana University',
+            Img: girl,
+            Link: ""
+        },
+        {
+            Name: 'Francis Tyers',
+            Role: 'Assistant Professor of Linguistics @ Indiana University',
+            Img: hacker,
+            Link: "https://scholar.google.fr/citations?user=o5HSM6cAAAAJ&hl=en"
         },
         {
             Name: 'Jamshidbek Mirzakhalov',
@@ -78,6 +90,18 @@ export const TeamState = () => {
             Link: "https://scholar.google.com.tr/citations?hl=en&user=dLaR9lgAAAAJ&view_op=list_works&sortby=pubdate#"
         },
         {
+            Name: 'Otabek Abduraufov',
+            Role: 'Undergraduate Student @ University of South Florida',
+            Img: hacker,
+            Link: ""
+        },
+        {
+            Name: 'Sardana Ivanova',
+            Role: 'Graduate Student @ Helsinki University',
+            Img: girl,
+            Link: ""
+        },
+        {
             Name: 'Shahnoza Pulatova',
             Role: 'Undergraduate Student @ Namangan State University',
             Img: shaxnoza,
@@ -91,7 +115,7 @@ export const TeamState = () => {
         },
         {
             Name: 'Vishakha Agrawal',
-            Role: 'Undergrad @ Dayananda Sagar College, India',
+            Role: 'Undergraduate Student @ Dayananda Sagar College, India',
             Img: agrawal,
             Link: 'https://www.linkedin.com/in/vishakha-a/'
         }
@@ -143,15 +167,9 @@ export const TranslatorsState = () => {
             Link: ""
         },
         {
-            Name: 'Nart Alawgan',
+            Name: 'Shamil Guta',
             Role: 'Karachay-Balkar',
             Img: student,
-            Link: ""
-        },
-        {
-            Name: 'Shaxnoza Abatovna',
-            Role: 'Karakalpak',
-            Img: girl,
             Link: ""
         },
         {
