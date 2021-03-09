@@ -17,11 +17,11 @@ function GetInvolved() {
         <h2>Connecting with the community</h2>
         <ul>
           <li>
-            We have an active <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-k5sdiitd-02VyV_aNdRMpXyL9lRlTBA">Slack workspace</a> and Telegram channel where you can
+            We have an active <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-n36l10h1-BbmMefLQ2oKiP0kh~ntzqA">Slack workspace</a> and Telegram channel where you can
             learn about projects and find people to collaborate with!
           </li>
           <li>
-            Every Saturday @ 12pm (UTC−05:00), we host a community meetup where
+            Every Sunday @ 1pm (UTC−05:00), we host a community meetup where
             we welcome new members, talk about projects and discuss next steps. You can join the meeting <a href="https://meet.google.com/pih-fbrg-kja">here</a>! 
           </li>
           <li>
