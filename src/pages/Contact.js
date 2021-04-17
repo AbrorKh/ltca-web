@@ -35,7 +35,7 @@ function Contact() {
                     <Social variants={titleAnim}>
                         <Circle />
                         <h4>Join our slack channel:</h4>
-                        <a href="Let’s work together in Slack! It’s a faster, simpler way to talk shop, share files, and get work done. Join here: https://join.slack.com/t/turkic-interlingua/shared_invite/zt-n36l10h1-BbmMefLQ2oKiP0kh~ntzqA"><img src={slack} alt="" /></a>
+                        <a href="Let’s work together in Slack! It’s a faster, simpler way to talk shop, share files, and get work done. Join here: https://join.slack.com/t/turkic-interlingua/shared_invite/zt-phuws26o-SdpsPUdM~E9fEB85TwfNXw"><img src={slack} alt="" /></a>
                     </Social>
                 </Hide>
             </div>

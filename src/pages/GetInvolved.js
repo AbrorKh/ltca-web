@@ -17,7 +17,7 @@ function GetInvolved() {
         <h2>Connecting with the community</h2>
         <ul>
           <li>
-            We have an active <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-n36l10h1-BbmMefLQ2oKiP0kh~ntzqA">Slack workspace</a> and Telegram channel where you can
+            We have an active <a href="https://join.slack.com/t/turkic-interlingua/shared_invite/zt-phuws26o-SdpsPUdM~E9fEB85TwfNXw">Slack workspace</a> and Telegram channel where you can
             learn about projects and find people to collaborate with!
           </li>
           <li>
@@ -34,7 +34,7 @@ function GetInvolved() {
         <ul>
           <li>
             If you are a native speaker of a Turkic language, you can help us
-            translate existing data or create new content! Fill out <a href="https://forms.gle/4qogaxAKDGixbuYm7s">this form</a> to
+            translate existing data or create new content! Fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSchqhft7deplvvwPrvCZc5yCVsnCCIanFGkw-wuqxV0dvUxtw/viewform?usp=sf_link">this form</a> to
             let us know what languages you speak!
           </li>
           <li>
